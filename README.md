@@ -1,5 +1,6 @@
 # aus-abr
-[![DeepScan grade](https://deepscan.io/api/teams/10299/projects/13026/branches/211603/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=10299&pid=13026&bid=211603) [![Coverage Status](https://coveralls.io/repos/github/samuraitruong/aus-abr/badge.svg?branch=master)](https://coveralls.io/github/samuraitruong/aus-abr?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/andre-mchill/aus-abr/badge.svg?branch=master)](https://coveralls.io/github/andre-mchill/aus-abr?branch=master)
+![Build Status](https://api.travis-ci.com/andre-mchill/aus-abr.svg?branch=master&status=passed)
 
 
 NodeJS package to retrieve ABN or ACN from https://abr.business.gov.au/ below function are supported:

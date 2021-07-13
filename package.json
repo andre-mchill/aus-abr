@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samuraitruong/aus-abr.git"
+    "url": "git+https://github.com/andre-mchill/aus-abr.git"
   },
   "keywords": [
     "abr"
@@ -22,9 +22,9 @@
   ],
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/samuraitruong/aus-abr/issues"
+    "url": "https://github.com/andre-mchill/aus-abr/issues"
   },
-  "homepage": "https://github.com/samuraitruong/aus-abr#readme",
+  "homepage": "https://github.com/andre-mchill/aus-abr#readme",
   "devDependencies": {
     "@types/jest": ">=26.0.24",
     "@typescript-eslint/eslint-plugin": "^3.6.1",
