@@ -49,10 +49,14 @@ describe("History tests", () => {
 });
 
 describe("searchActive()", () => {
+  beforeEach(async () => {
+    jest.setTimeout(10000) // Allow "Racing" lookup to take longer
+  })
+
   it.each`
     keyword                  | abnOrAcn            | name                     | type               | location
     ${"Toy World Australia"} | ${"43 165 614 120"} | ${"Toy World Australia"} | ${"Business Name"} | ${"3754 VIC"}
-    ${"Racing"}              | ${" 883 267"}       | ${"RACING.COM PTY LTD"}  | ${"Entity Name"}   | ${"3008 VIC"}
+    ${"Racing"}              | ${"883 267"}        | ${"RACING.COM PTY LTD"}  | ${"Entity Name"}   | ${"3008 VIC"}
   `(
     "should get the list company match with snapshot of '$keyword'",
     async ({ keyword }) => {
