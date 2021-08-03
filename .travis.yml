@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - 12
+arch: arm64
+os: linux
+
+install:
+  - npm install
+jobs:
+  include:
+    - stage: build
+      script: npm run build
+    - stage: lint and test
+      script: npm run coverage
+      name: test
+    - script: npm run lint
+      name: lint
